@@ -19,10 +19,16 @@ Lunr Languages is a [Lunr](http://lunrjs.com/) addon that helps you search in do
 * ![](https://raw.githubusercontent.com/madebybowtie/FlagKit/master/Assets/PNG/TH.png) Thai
 * ![](https://raw.githubusercontent.com/madebybowtie/FlagKit/master/Assets/PNG/VN.png) Vietnamese
 * ![](https://raw.githubusercontent.com/madebybowtie/FlagKit/master/Assets/PNG/IQ.png) Arabic
-* Chinese
+* Chinese(use nodejieba)
 * [Contribute with a new language](CONTRIBUTING.md)
 
 Lunr Languages is compatible with Lunr version `0.6`, `0.7`, `1.0` and `2.X`.
+
+# How to use Chinese
+```
+similar to the following, but you need import `lunr.cn.js` and use as `this.use(lunr.cn)`
+用法与下面一样，但是需要引入的是`lunr.cn.js`,然后这样使用`this.use(lunr.cn)`
+```
 
 # How to use
 
